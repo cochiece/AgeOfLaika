@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC83F4AF1B139EAC00364441 /* cute-puppy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC83F4AE1B139EAC00364441 /* cute-puppy.jpg */; };
 		DCA6E3FD1B12F4AD00D14425 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6E3FC1B12F4AD00D14425 /* AppDelegate.swift */; };
 		DCA6E3FF1B12F4AD00D14425 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6E3FE1B12F4AD00D14425 /* ViewController.swift */; };
 		DCA6E4021B12F4AD00D14425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA6E4001B12F4AD00D14425 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC83F4AE1B139EAC00364441 /* cute-puppy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cute-puppy.jpg"; sourceTree = "<group>"; };
 		DCA6E3F71B12F4AD00D14425 /* AgeOfLaika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgeOfLaika.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA6E3FB1B12F4AD00D14425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCA6E3FC1B12F4AD00D14425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		DCA6E3FA1B12F4AD00D14425 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DC83F4AE1B139EAC00364441 /* cute-puppy.jpg */,
 				DCA6E3FB1B12F4AD00D14425 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCA6E4021B12F4AD00D14425 /* Main.storyboard in Resources */,
+				DC83F4AF1B139EAC00364441 /* cute-puppy.jpg in Resources */,
 				DCA6E4071B12F4AD00D14425 /* LaunchScreen.xib in Resources */,
 				DCA6E4041B12F4AD00D14425 /* Images.xcassets in Resources */,
 			);
@@ -411,6 +415,7 @@
 				DCA6E4181B12F4AD00D14425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCA6E4191B12F4AD00D14425 /* Build configuration list for PBXNativeTarget "AgeOfLaikaTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				DCA6E41B1B12F4AD00D14425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

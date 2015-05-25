@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var humanAge: UITextField!
+    
+    @IBOutlet weak var dogYearsLabel: UILabel!
+    
+    @IBOutlet weak var convertButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +27,27 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func getDogYearsButton(sender: UIButton) {
+        
+        
+        if let humanAgeInt = humanAge.text.toInt(){
+        
+            var dogYears = humanAgeInt*7
+            dogYearsLabel.text = "Laika is \(dogYears) dog years old!"
+            humanAge.resignFirstResponder()
+            dogYearsLabel.hidden = false
+            
+        } else{
+            dogYearsLabel.hidden = false
+            dogYearsLabel.text = "Please enter a whole number!"
+        }
+        
+        
+        
+        convertButton.setTitle("Here you go!!!", forState: UIControlState.Normal)
+        
+    }
+    
+    
 }
 
